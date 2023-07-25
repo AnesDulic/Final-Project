@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furtastic Adoption</title>
+    <link href="page.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Arial", sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section-container {
+            margin-bottom: 40px;
+        }
+
+        h1, h2, h3 {
+            color: #1a237e; 
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #1a237e; 
+            font-weight: bold; 
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: bold; 
+        }
+
+        p {
+            font-size: 16px;
+            color: #666666;
+            line-height: 1.6;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 100;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #333333;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .sidebar a:hover {
+            color: #007bff;
+        }
+
+        .sidebar-right {
+            position: fixed;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 100;
+        }
+
+        .sidebar-right ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar-right li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar-right a {
+            text-decoration: none;
+            color: #333333;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .sidebar-right a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2 style="font-weight: bold;">Shortcuts</h2>
+        <ul>
+            <li><a href="#home">Welcome to Furtastic Adoption</a></li>
+            <li><a href="#featured-cats">Featured Cats</a></li>
+            <li><a href="#adoption-gallery">Adoption Gallery</a></li>
+            <li><a href="#pet-ownership">Responsible Pet Ownership</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class="sidebar-right">
+        <h2 style="font-weight: bold;">Hot Links</h2>
+        <ul>
+            <li><a href="http://localhost:52330/Featured1.html" target="_blank">Featured Cats</a></li>
+            <li><a href="http://localhost:52330/catgallery.html" target="_blank">Gallery</a></li>
+        </ul>
+    </div>
+
+    <section id="home">
+        <div class="container">
+            <div class="section-container">
+                <h1>Welcome to Furtastic Adoption</h1>
+                <p>
+                    We are dedicated to finding loving homes for cats in need. Our mission is to provide a safe and caring environment for our furry friends until they find a loving family.
+                </p>
+                <div class="cat-image">
+                    <img src="cat11.png" alt="Cat 11">
+                </div>
+                <h2 id="featured-cats">Featured Cats</h2>
+                <div class="featured-cats">
+                    <div class="cat-profile">
+                        <img src="cat33.png" alt="Cat 1">
+                        <h3>Fluffy</h3>
+                        <p>
+                            Fluffy is a playful and affectionate cat who loves cuddles and treats. She is looking for a home with a loving family who can give her the attention she deserves.
+                        </p>
+                    </div>
+                    <div class="cat-profile">
+                        <img src="cat22.png" alt="Cat 2">
+                        <h3>Whiskers</h3>
+                        <p>
+                            Whiskers is a gentle and shy cat who needs a patient and understanding home. Once he trusts you, he will be your most loyal companion.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="adoption-gallery">
+        <div class="container">
+            <div class="section-container">
+                <h2>Adoption Gallery</h2>
+                <div class="cat-profiles">
+                    <div class="cat-profile">
+                        <img src="cat55.png" alt="Cat 3">
+                        <h3>Mittens</h3>
+                        <p>
+                            Mittens is a playful and curious cat who gets along well with other pets. She would be a great addition to any loving home.
+                        </p>
+                        <p>Age: 2 years</p>
+                        <p>Health: Vaccinated and spayed</p>
+                        <p>Adoption fee: $100</p>
+                    </div>
+                    <div class="cat-profile">
+                        <img src="cat44.png" alt="Cat 4">
+                        <h3>Oscar</h3>
+                        <p>
+                            Oscar is a calm and laid-back cat who enjoys lounging around. He prefers a quiet home without too much commotion.
+                        </p>
+                        <p>Age: 4 years</p>
+                        <p>Health: Vaccinated and neutered</p>
+                        <p>Adoption fee: $120</p>
+                        <p>
+                            <div class="formal-link">
+                                <a href="http://localhost:52330/catgallery.html" target="_blank">Explore More Available Cats for Adoption</a>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pet-ownership">
+        <div class="container">
+            <div class="section-container">
+                <h2>Responsible Pet Ownership</h2>
+                <p>
+                    Owning a cat comes with great responsibility. Here are some tips for providing the best care for your feline friend:
+                </p>
+                <ul>
+                    <li>Provide a balanced and nutritious diet</li>
+                    <li>Schedule regular visits to the veterinarian</li>
+                    <li>Keep your cat's living environment clean and safe</li>
+                    <li>Offer plenty of mental and physical stimulation</li>
+                    <li>Groom your cat regularly</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-container">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or are interested in adopting one of our adorable cats, please fill out the form below:</p>
+                <form action="/contact-submit" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+                <p>You can also reach us at:</p>
+                <p>Email: adoption@furtastic.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
