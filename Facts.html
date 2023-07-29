@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furtastic Adoption</title>
+    <link href="page.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Arial", sans-serif;
+        }
+
+
+        .message-box {
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .message-box label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .message-box textarea {
+            width: 100%;
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .message-box button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .message-box button:hover {
+            background-color: #0056b3;
+        }
+        h1, h2, h3 {
+            color: #1a237e; 
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #1a237e; 
+            font-weight: bold; 
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: bold; 
+        }
+
+        p {
+            font-size: 16px;
+            color: #666666;
+            line-height: 1.6;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 100;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #333333;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .sidebar a:hover {
+            color: #007bff;
+        }
+
+        .sidebar-right {
+            position: fixed;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 100;
+        }
+
+        .sidebar-right ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar-right li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar-right a {
+            text-decoration: none;
+            color: #333333;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .sidebar-right a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+
+        </ul>
+    </div>
+
+    <div class="sidebar-right">
+        <h2 style="font-weight: bold;">Hot Links</h2>
+        <ul>
+            <li><a href="https://AnesDulic.github.io/finals/index.html" target="_blank">Home page</a></li>
+<li><a href="https://AnesDulic.github.io/finals/featured.html" target="_blank">Featured Cats</a></li>
+        <li><a href="https://AnesDulic.github.io/finals/catgallery.html" target="_blank">Gallery</a></li>
+        </ul>
+    </div>
+
+    <section id="home">
+    </section>
+
+    <section id="adoption-gallery">
+    </section>
+
+    <section id="pet-ownership">
+        <div class="container">
+            <div class="section-container">
+                <h2>Responsible Cat Ownership</h2>
+                <p>
+                    Owning a cat comes with great responsibility. Here are some tips for providing the best care for your feline friend:
+                </p>
+                <ul>
+                    <li>Provide a balanced and nutritious diet</li>
+                    <li>Schedule regular visits to the veterinarian</li>
+                    <li>Keep your cat's living environment clean and safe</li>
+                    <li>Offer plenty of mental and physical stimulation</li>
+                    <li>Groom your cat regularly</li>
+                    <li>Perform daily check-ups on your cat</li>
+                    <li>Provide fresh water at all times</li>
+                    <li>Keep toxic plants and substances out of reach</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-container">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or are interested in adopting one of our adorable cats, please fill out the form below:</p>
+                <form action="/contact-submit" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+                <p>You can also reach us at:</p>
+                <p>Email: adoption@furtastic.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
